@@ -22,7 +22,7 @@ markdown: kramdown
 # Build settings
 future: true
 
-baseurl: ds-advances2017
+baseurl: /ds-advances2017
 permalink: "/:title.html"
 banner: manchester.jpg
 
