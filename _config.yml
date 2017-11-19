@@ -22,7 +22,8 @@ markdown: kramdown
 # Build settings
 future: true
 
-permalink: "/:categories/:title.html"
+baseurl: ds-advances2017
+permalink: "/:title.html"
 banner: manchester.jpg
 
 analytics:
