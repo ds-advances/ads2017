@@ -7,8 +7,12 @@ baseurl: "/ds-advances2017" # the subpath of your site, e.g. /blog/
 url: "http://www.ds-advances.org" # the base hostname & protocol for your site
 twitter_username: dsi_uom
 github_username: ds-advances
-
-github:
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+ghub:
   edit: true
   repository: ds-advances.github.io
 
@@ -40,7 +44,10 @@ conference:
   
   room: Conference Suite
   venue: Museum of Science and Industry
+  venue_url: https://www.scienceandindustrymuseum.org.uk
   location: Manchester, UK
+  short_name : MADS
+  full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2017
   month: May
@@ -51,10 +58,14 @@ conference:
   - name: University of Manchester Data Science Institute
     url: "http://www.datascience.manchester.ac.uk/"
   organizers:
-  - name: Magnus Rattray
-    url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
-  - name: Neil Lawrence
-    url: "http://inverseprobability.com/"
+  - type: Organizers
+    people:
+    - given: Magnus 
+      family: Rattray
+      url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
+    - given: Neil 
+      family: Lawrence
+      url: "http://inverseprobability.com/"
 
 map:
   show: False
