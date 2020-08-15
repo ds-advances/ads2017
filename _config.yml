@@ -60,7 +60,7 @@ conference:
   sponsors:
   - name: University of Manchester Data Science Institute
     url: "http://www.datascience.manchester.ac.uk/"
-  organizers:
+  chairs:
   - type: Organizers
     people:
     - given: Magnus 
