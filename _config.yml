@@ -14,7 +14,7 @@ plugins:
 remote_theme: lawrennd/proceedings
 ghub:
   edit: true
-  repository: ds-advances.github.io
+  repository: ds-advances2017
 
 youtube:
   height: 315
