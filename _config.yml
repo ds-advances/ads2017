@@ -46,7 +46,7 @@ conference:
   
   room: Conference Suite
   venue: Museum of Science and Industry
-  venue_url: https://www.scienceandindustrymuseum.org.uk
+  venue_url: http://msimanchester.org.uk/
   location: Manchester, UK
   short_name : MADS
   full_name: Advances in Data Science
