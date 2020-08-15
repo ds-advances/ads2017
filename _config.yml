@@ -50,6 +50,8 @@ conference:
   venue_url: http://msimanchester.org.uk/
   location: Manchester, UK
   short_name : MADS
+  instance: 1st
+  styling: Workshop on
   full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2017
