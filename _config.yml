@@ -1,6 +1,8 @@
 # Site settings
 title: "Advances in Data Science, 2017"
-email: "dsi.enquiries@manchester.ac.uk"
+author:
+  name: University of Manchester Data Science Institute
+  email: "dsi.enquiries@manchester.ac.uk"
 description: >
   A 2-day workshop showcasing recent advances in data science methodology and applications, including sessions on advanced data analytics, data science applications, privacy and research software.
 baseurl: "/ds-advances2017" # the subpath of your site, e.g. /blog/
@@ -14,7 +16,7 @@ plugins:
 remote_theme: lawrennd/proceedings
 ghub:
   edit: true
-  repository: ds-advances.github.io
+  repository: ds-advances2017
 
 youtube:
   height: 315
