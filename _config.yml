@@ -14,11 +14,11 @@ plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
-style: mads
+style: ads
 
 ghub:
   edit: true
-  repository: ds-advances2017
+  repository: ads2017
 
 youtube:
   height: 315
@@ -50,7 +50,7 @@ conference:
   venue: Museum of Science and Industry
   venue_url: http://msimanchester.org.uk/
   location: Manchester, UK
-  short_name : MADS
+  short_name : ADS
   instance: 1st
   styling: Workshop on
   full_name: Advances in Data Science
