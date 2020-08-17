@@ -9,6 +9,9 @@ baseurl: "/ds-advances2017" # the subpath of your site, e.g. /blog/
 url: "http://www.ds-advances.org" # the base hostname & protocol for your site
 twitter_username: dsi_uom
 github_username: ds-advances
+exclude:
+- README.md
+- Gemfile
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
